@@ -7,13 +7,78 @@
 
 /* utilities */
 
-/* containers */
-.maincontainer{
-    width: 900px;
-    margin: 0 auto;
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.flex{
+    display: flex;
 }
 
-.jumbofootercontainer{
-    width: 900px;
-    margin: 0 auto;
+.paddingleft15{
+    padding-left: 15px;
 }
+
+.paddingright15{
+    padding-right: 15px;
+}
+
+.aligncenter{
+    display: flex;
+    align-items: center;
+}
+.justifyend{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* containers */
+.maincontainer{
+    height: 900px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.jumbo-footer-container{
+    height: 900px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+/* buttons */
+
+button{
+    padding: 8px 14px;
+    background-color: rgb(0,97,255);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* header */
+header{
+    height: 80px;
+    justify-content: space-between;
+}
+
+.header-container{
+    flex-basis: 50%;
+    gap: 30px;
+}
+
+
+.header-container > img{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.header-container a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
