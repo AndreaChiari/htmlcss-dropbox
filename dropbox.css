@@ -33,11 +33,15 @@
     justify-content: flex-end;
 }
 
+.marginbottom50{
+    margin-bottom: 50px;
+}
 
 /* containers */
 
 .maincontainer{
-    height: 900px;
+    height: 3000px;
+    width: 900px;
     margin: 0 auto;
     background-color: blue;
 }
@@ -87,9 +91,14 @@ header{
 
 /* main */
 
+
+/* jumbotron */
+
+
 .bgjumbotron{
     height: 800px;
     background-color: rgb(180,208,231);
+    margin-bottom: 10%;
 }
 
 .jumbotitle{
@@ -106,4 +115,23 @@ header{
 .jumbo-img{
     flex-basis: 60%;
     background-color: blueviolet;
+}
+
+ .jumbotitle > h1{
+   font-size: 50px;
+   
+}
+
+/* core elements */
+
+.column-container{
+    width: 900px;
+    height: 1000px;
+    gap: 40px;
+}
+
+
+.column{
+    flex-basis: calc(100% / 3);
+    background-color: yellow;
 }
