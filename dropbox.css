@@ -53,6 +53,11 @@
     height: 500px;
 }
 
+.fa-check{
+    color: rgb(0,97,255);
+    float: left;
+}
+
 /* colors */
 
 .bgcolorgrey{
@@ -140,7 +145,7 @@ header{
     
 }
 
-p>i{
+.fa-arrow-down{
     font-size: 50px;
     cursor: pointer;
 }
@@ -163,6 +168,8 @@ p>i{
    
 }
 
+
+
 /* core elements */
 
 
@@ -172,6 +179,7 @@ p>i{
     width: 900px;
     height: 1000px;
     gap: 40px;
+    margin-top: 50px;
 }
 
 
@@ -230,14 +238,21 @@ p>i{
 padding-left: 15px;
 }
 
-.fa-solid{
+p>i{
     font-size: 100%;
-    
 }
+
+
 .infosub button{
-    position: absolute;
-    left: 50^;
+   margin-left: 10px;
+   width: 221px;
+    
 } 
+
+.checktext{
+    margin-left: 20px;
+}
+
 
 
 
