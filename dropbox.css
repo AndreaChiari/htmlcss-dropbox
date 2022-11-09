@@ -43,6 +43,19 @@
     margin-bottom: 150px;
 }
 
+.height500{
+    height: 500px;
+}
+
+/* colors */
+
+.bgcolorgrey{
+    background-color: rgb(180,208,231);
+}
+.bgcolorblack{
+    background-color: black;
+}
+
 /* containers */
 
 .maincontainer{
@@ -58,6 +71,7 @@
     margin: 0 auto;
     background-color: red;
 }
+
 
 /* buttons */
 
@@ -245,4 +259,49 @@ header{
 .bundleend-row > div{
     width: calc(100% / 2);
     background-color: rgb(0, 255, 98);
+}
+
+
+/* prova gratuita */
+
+.bgprova{
+    height: 400px;
+}
+.containerprova{
+    height: 100%;
+    width: 900px;
+    margin: 0 auto;
+    background: black;
+    
+}
+
+
+/* domande frequenti */
+
+.containerFAQ{
+    height: 400px;
+    width: 900px;
+    margin: 0 auto;
+    background: red;
+}
+
+.containerFAQ > div{
+    height: calc(100% / 3);
+    width: 100%;
+    border: 1px solid black;
+}
+#mb150{
+    margin-bottom: 150px;
+}
+
+/* footer */
+
+.footercontainer{
+    height: 300px;
+    
+
+}
+.footercolumn{
+    flex-basis: 20%;
+    background-color: aqua;
 }
