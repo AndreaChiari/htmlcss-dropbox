@@ -201,3 +201,48 @@ header{
 }
 
 /* jumbotron immaigni a scacchiera */
+
+.ps-container{
+    height: 500px;
+    background-color: red;
+}
+
+.bundlestart{
+    flex-basis: calc(100% / 3);
+    background-color: blueviolet;
+    flex-direction: column;
+
+}
+
+.description{
+    flex-basis: calc(100% / 3);
+    background-color: rgb(192, 226, 43);
+}
+
+.bundleend{
+    flex-basis: calc(100% / 3);
+    background-color: rgb(226, 43, 43);
+    flex-direction: column;
+}
+
+.bundlestart-row{
+    height: 250px;
+    width: 500px;
+    
+}
+
+.bundlestart-row > div{
+    width: calc(100% / 2);
+    background-color: aqua;
+}
+
+.bundleend-row{
+    height: 250px;
+    width: 500px;
+    
+}
+
+.bundleend-row > div{
+    width: calc(100% / 2);
+    background-color: rgb(0, 255, 98);
+}
