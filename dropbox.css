@@ -55,7 +55,9 @@
 .marginbottom150{
     margin-bottom: 150px;
 }
-
+.margintop225{
+    margin-top: 225px;
+}
 .height500{
     height: 500px;
 }
@@ -76,6 +78,20 @@
 
 .colorgrey{
     color: grey;
+}
+.bglightgreen{
+    background-color:rgb(162,211,155) ;
+}
+.bggranata{
+    background-color: rgb(97,8,43);
+}
+
+.bgcolorblue{
+    background-color: rgb(0,147,206);
+}
+
+.bglightred{
+    background-color: rgb(255,28,28);
 }
 /* containers */
 
@@ -348,17 +364,27 @@ p>i{
 .row-pic > div > p{
     padding-left: 15px;
 }
+/* link intermezzo social proof */
 
-/* jumbotron immaigni a scacchiera */
+.container-intermezzo{
+    width: 500px;
+    margin-left: 426px;
+}
+
+
+
+
+
+/* jumbotron immagini a scacchiera */
 
 .ps-container{
     height: 500px;
-    background-color: red;
+    
 }
 
 .bundlestart{
     flex-basis: calc(100% / 2);
-    background-color: blueviolet;
+    
     flex-direction: column;
 
 }
@@ -382,7 +408,17 @@ p>i{
 
 .bundlestart-row > div{
     width: calc(100% / 2);
-    background-color: aqua;
+    
+    position: relative;
+}
+
+.bundlestart-row > div>img{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    height: 20%;
+    transform: translateY(-50%);
+ 
 }
 
 .bundleend-row{
