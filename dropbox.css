@@ -32,7 +32,9 @@
     display: flex;
     justify-content: flex-end;
 }
-
+.marginbottom25{
+    margin-bottom: 25px;
+}
 .marginbottom50{
     margin-bottom: 50px;
 }
@@ -69,7 +71,7 @@
     height: 500px;
     width: 1100px;
     margin: 0 auto;
-    background-color: red;
+    
 }
 
 
@@ -116,7 +118,7 @@ header{
 
 
 .bgjumbotron{
-    height: 800px;
+    height: 700px;
     background-color: rgb(180,208,231);
     margin-bottom: 10%;
 }
@@ -125,20 +127,33 @@ header{
     width: 1100px;
     height: 300px;
     margin: 0 auto;
-    background-color: green;
 }
 
 .jumbo-prova{
-    flex-basis: 40%;
-    background-color: aqua;
-}
-.jumbo-img{
-    flex-basis: 60%;
-    background-color: blueviolet;
+    flex-basis: 30%;
+    
 }
 
+p>i{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.jumbo-img{
+    flex-basis: 70%;
+    position: relative;
+
+}
+.jumbopic{
+    height: 100%;
+    width: auto;
+    position: absolute;
+}
+
+
  .jumbotitle > h1{
-   font-size: 50px;
+   font-size: 80px;
+   padding-top: 30px;
    
 }
 
@@ -281,7 +296,8 @@ header{
 .containerFAQ{
     height: 400px;
     width: 900px;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 150px;
     background: red;
 }
 
@@ -289,9 +305,6 @@ header{
     height: calc(100% / 3);
     width: 100%;
     border: 1px solid black;
-}
-#mb150{
-    margin-bottom: 150px;
 }
 
 /* footer */
