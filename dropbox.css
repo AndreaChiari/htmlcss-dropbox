@@ -33,7 +33,9 @@
     justify-content: flex-end;
 }
 
+
 /* containers */
+
 .maincontainer{
     height: 900px;
     margin: 0 auto;
@@ -41,7 +43,8 @@
 }
 
 .jumbo-footer-container{
-    height: 900px;
+    height: 500px;
+    width: 1100px;
     margin: 0 auto;
     background-color: red;
 }
@@ -58,6 +61,7 @@ button{
 
 
 /* header */
+
 header{
     height: 80px;
     justify-content: space-between;
@@ -81,4 +85,25 @@ header{
 }
 
 
+/* main */
 
+.bgjumbotron{
+    height: 800px;
+    background-color: rgb(180,208,231);
+}
+
+.jumbotitle{
+    width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.jumbo-prova{
+    flex-basis: 40%;
+    background-color: aqua;
+}
+.jumbo-img{
+    flex-basis: 60%;
+    background-color: blueviolet;
+}
