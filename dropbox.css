@@ -16,6 +16,10 @@
     display: flex;
 }
 
+.paddingleft15{
+    padding-left: 15px;
+}
+
 .paddingright15{
     padding-right: 15px;
 }
@@ -80,7 +84,7 @@
 
 .jumbo-footer-container{
     height: 500px;
-    width: 1100px;
+    width: 1050px;
     margin: 0 auto;
     
 }
@@ -176,7 +180,7 @@ header{
 /* subscription columns */
 
 .column-container{
-    width: 900px;
+    width: 1050px;
     height: 1000px;
     gap: 40px;
     margin-top: 50px;
@@ -253,15 +257,6 @@ p>i{
     margin-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
 /* ufficio vendite / team  */
 
 .container-vendite{
@@ -325,26 +320,26 @@ p>i{
 }
 
 .bundlestart{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 2);
     background-color: blueviolet;
     flex-direction: column;
 
 }
 
 .description{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 2);
     background-color: rgb(192, 226, 43);
 }
 
 .bundleend{
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 2);
     background-color: rgb(226, 43, 43);
     flex-direction: column;
 }
 
 .bundlestart-row{
     height: 250px;
-    width: 500px;
+    width: 100%
     
 }
 
@@ -355,7 +350,7 @@ p>i{
 
 .bundleend-row{
     height: 250px;
-    width: 500px;
+    width: 100%;
     
 }
 
@@ -406,3 +401,11 @@ p>i{
     flex-basis: 20%;
     background-color: aqua;
 }
+
+
+
+
+
+
+
+
