@@ -16,10 +16,6 @@
     display: flex;
 }
 
-.paddingleft15{
-    padding-left: 15px;
-}
-
 .paddingright15{
     padding-right: 15px;
 }
@@ -32,6 +28,14 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.marginright10{
+    margin-right: 10px;
+}
+ .marginbottom15{
+    margin-bottom: 15px;
+ }   
+
 .marginbottom25{
     margin-bottom: 25px;
 }
@@ -58,13 +62,15 @@
     background-color: black;
 }
 
+.colorgrey{
+    color: grey;
+}
 /* containers */
 
 .maincontainer{
     height: 3000px;
     width: 900px;
     margin: 0 auto;
-    background-color: blue;
 }
 
 .jumbo-footer-container{
@@ -171,8 +177,75 @@ p>i{
 
 .column{
     flex-basis: calc(100% / 3);
-    background-color: yellow;
+    border: 1px solid grey;
 }
+
+.circle-bordered{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid rgb(0,97,255);
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.monthly{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(193, 197, 202);
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.yearly{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.column > div{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.header-column{
+    text-align: center;
+    padding: 13px;
+    
+}
+
+.infosub{
+    position: relative;
+}
+
+.infosub > *{
+padding-left: 15px;
+}
+
+.fa-solid{
+    font-size: 100%;
+    
+}
+.infosub button{
+    position: absolute;
+    left: 50^;
+} 
+
+
+
+
+
+
+
+
 
 /* ufficio vendite / team  */
 
