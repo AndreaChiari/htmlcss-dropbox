@@ -407,6 +407,9 @@ p>i{
 .row-pic > div > p{
     padding-left: 15px;
 }
+
+
+
 /* link intermezzo social proof */
 
 .container-intermezzo{
@@ -456,19 +459,25 @@ p>i{
     align-items: center;
     justify-content: center;
 }
+ .bundlestart-row > div > img{
+    filter: invert(100%);
+}
 
-
+.bundleend-row > div > img{
+    filter: invert(100%);
+}
 .bundleend-row{
     height: 250px;
     width: 100%;
-    
 }
+
 
 .bundleend-row > div{
     width: calc(100% / 2);
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -480,12 +489,13 @@ p>i{
 }
 .containerprova{
     height: 400px;
-    width: 900px;
+    width: 1050px;
     margin: 0 auto;
 }
 .cont-titlefreetrial{
-    flex-basis: 60%;
+    flex-basis: 53%;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .cont-titlefreetrial  h1{
@@ -494,13 +504,19 @@ p>i{
   
 }
 .cont-buttonfreetrial{
-    flex-basis: 40%;
+    flex-basis: 47%;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.cont-buttonfreetrial{
-    display:block
+.cont-buttonfreetrial > button{
+    display:block;
+    background-color: white;
+    color: black;
+    height: 12%;
+    width: 65%;
+    font-size: 15px;
+    
 }
 
 /* domande frequenti */
@@ -519,6 +535,9 @@ p>i{
     border: 1px solid black;
 }
 
+.containerFAQ h1{
+    font-size: 40px;
+}
 /* footer */
 
 .footercontainer{
