@@ -49,6 +49,9 @@
 .height40{
     height: 40%;
 }
+.height550{
+    height: 550px;
+}
 
 
 
@@ -82,9 +85,6 @@
     fill:white;
 }
 
-.height500{
-    height: 500px;
-}
 
 .fa-check{
     color: rgb(0,97,255);
@@ -310,15 +310,21 @@ p>i{
 
 
 .infosub button{
-   margin-left: 10px;
-   width: 221px;
-    
+    margin-left: 10px;
+    width: 266px;
+    height: 44px;
 } 
 
 .checktext{
     margin-left: 20px;
 }
 
+.provabutton-container-singolo{
+    margin-top: 95px;
+}
+.provabutton-container-Team{
+    margin-top: 73px
+}
 /* ufficio vendite / team  */
 
 .header-team{
@@ -351,7 +357,9 @@ p>i{
     margin-left: 27px;
 }
 
+
 /* trova un partner */
+
 
 .container-partner{
     width: 100%;
@@ -370,7 +378,19 @@ p>i{
 .partner-img img{
     height: 100%;
 }
+
+.partner-info > button{
+    display:block;
+    background-color: white;
+    color: black;
+    height: 15%;
+    width: 40%;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
 /* dropbox multitasking */
+
 
 .multi-container{
     width: 100%;
@@ -416,7 +436,9 @@ p>i{
     width: 500px;
     margin-left: 426px;
 }
-
+.container-intermezzo > h1{
+    font-size: 34px;
+}
 
 
 
@@ -525,7 +547,7 @@ p>i{
     height: 300px;
     width: 1050px;
     margin: auto;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
 }
 
 .containerFAQ > div{
@@ -555,20 +577,44 @@ p>i{
 .containerFAQ >.noborder{
     border:none
 }
+
 /* footer */
 
+footer > *{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
 .footercontainer{
-    height: 300px;
+    height: 400px;
+    padding-top: 100px;
 }
 
 .footercolumn{
-    flex-basis: 20%;
-    background-color: aqua;
+    flex-basis: 25%;
 }
 
+li{
+    margin-bottom: 10px;
+}
 
+.pedice-container{
+    max-height: 500px;
+    width: 1050px;
+    margin: 0 auto;
+}
 
+.pedice-container>*{
+    color: rgb(153,153,153);
+}
 
+.fa-earth-americas{
+    margin-top: 44px;
+    margin-right: 5px;
+
+}
 
 
 
