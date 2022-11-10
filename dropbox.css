@@ -522,11 +522,10 @@ p>i{
 /* domande frequenti */
 
 .containerFAQ{
-    height: 400px;
-    width: 900px;
+    height: 300px;
+    width: 1050px;
     margin: auto;
     margin-bottom: 150px;
-    background: red;
 }
 
 .containerFAQ > div{
@@ -538,13 +537,30 @@ p>i{
 .containerFAQ h1{
     font-size: 40px;
 }
+
+.containerFAQ div{
+    align-items: center;
+    justify-content: space-between;
+    border-left: none;
+    border-right: none;
+}
+
+.containerFAQ span{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.containerFAQ p{
+    font-weight: 700;
+}
+.containerFAQ >.noborder{
+    border:none
+}
 /* footer */
 
 .footercontainer{
     height: 300px;
-    
-
 }
+
 .footercolumn{
     flex-basis: 20%;
     background-color: aqua;
