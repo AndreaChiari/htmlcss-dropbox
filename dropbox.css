@@ -7,8 +7,6 @@
 
 /* utilities */
 
-
-
 *{
     font-family: 'Open Sans', sans-serif;
 }
@@ -36,6 +34,26 @@
     justify-content: flex-end;
 }
 
+
+/* utility size-img */
+
+.height10{
+    height: 10%;
+}
+.height20{
+    height: 20%;
+}
+.height30{
+    height: 30%;
+}
+.height40{
+    height: 40%;
+}
+
+
+
+/* utility margin */
+
 .marginright10{
     margin-right: 10px;
 }
@@ -58,6 +76,12 @@
 .margintop225{
     margin-top: 225px;
 }
+
+
+.fillwhite{
+    fill:white;
+}
+
 .height500{
     height: 500px;
 }
@@ -93,6 +117,18 @@
 .bglightred{
     background-color: rgb(255,28,28);
 }
+.bgred{
+    background-color: rgb(213,0,31);
+}
+.bgazure{
+    background-color:rgb(180,208,231)
+}
+.bgheavyblue{
+    background-color: rgb(13,36,129);
+}
+.bgyellow{
+    background-color: rgb(255,216,48);
+}
 /* containers */
 
 .maincontainer{
@@ -125,6 +161,12 @@ button{
 header{
     height: 80px;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .header-container{
@@ -155,6 +197,7 @@ header{
     height: 700px;
     background-color: rgb(180,208,231);
     margin-bottom: 10%;
+    margin-top: 80px;
 }
 
 .jumbotitle{
@@ -391,7 +434,8 @@ p>i{
 
 .description{
     flex-basis: calc(100% / 2);
-    background-color: rgb(192, 226, 43);
+    background-color: rgb(245,245,245);
+    padding:45px 30px;
 }
 
 .bundleend{
@@ -408,18 +452,11 @@ p>i{
 
 .bundlestart-row > div{
     width: calc(100% / 2);
-    
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.bundlestart-row > div>img{
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    height: 20%;
-    transform: translateY(-50%);
- 
-}
 
 .bundleend-row{
     height: 250px;
@@ -429,8 +466,11 @@ p>i{
 
 .bundleend-row > div{
     width: calc(100% / 2);
-    background-color: rgb(0, 255, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 
 /* prova gratuita */
@@ -439,13 +479,29 @@ p>i{
     height: 400px;
 }
 .containerprova{
-    height: 100%;
+    height: 400px;
     width: 900px;
     margin: 0 auto;
-    background: black;
-    
+}
+.cont-titlefreetrial{
+    flex-basis: 60%;
+    align-items: center;
 }
 
+.cont-titlefreetrial  h1{
+    font-size: 40px;
+    color:rgb(97,8,43);
+  
+}
+.cont-buttonfreetrial{
+    flex-basis: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-buttonfreetrial{
+    display:block
+}
 
 /* domande frequenti */
 

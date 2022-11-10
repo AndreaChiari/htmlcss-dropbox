@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="dropbox.css">
@@ -36,7 +37,7 @@
 
     <!-- jumbotron -->
     <main>
-        <div class="bgjumbotron">
+        <section class="bgjumbotron">
             <div class="jumbotitle">
                 <h1>Tutto cio che ti serve per il lavoro, in un unico posto</h1>
             </div>
@@ -54,7 +55,7 @@
                     <img class="jumbopic" src="img/jumbo.png" alt="">
                 </div>
             </div>
-        </div>
+        </section>
 
     <!-- fine jumbotron inizio core elements -->
 
@@ -291,39 +292,54 @@
             <!-- jumbotron partnership-->
             
             <div class="ps-container flex margintop225" > 
-                <div class="bundlestart flex">
+                <section class="bundlestart flex">
                     <div class="bundlestart-row flex" >
                         <div class="bglightgreen">
-                            <img src="img/designit.svg" alt="img/designit.svg">
+                            <img class="height20" src="img/designit.svg" alt="img/designit.svg">
                         </div>
-                        <div>
-                            <img src="img/arizona_state_university.svg" alt="img/arizona_state_university.svg">
+                        <div class="bggranata">
+                            <img class="height40"src="img/arizona_state_university.svg" alt="img/arizona_state_university.svg">
                         </div>
                     </div>
 
                     <div class="bundlestart-row flex" >
-                        <div>
+                        <div class="bgcolorblue">
                             <img src="img/university_of_florida.svg" alt="mg/university_of_florida.svg">
                         </div>
-                        <div>
-                            <img src="img/topps.svg" alt="img/topps.svg">
+                        <div class="bglightred">
+                            <img class="height30"src="img/topps.svg" alt="img/topps.svg">
                         </div>
                     </div>
                     
-                </div>
+                </section>
                     
-                    <div class="description flex">
-                        
+                    <div class="description">
+                        <img class="height20 marginbottom50"src="img/designit.svg" alt="img/designit.svg">
+                        <hr class="marginbottom50"style="width: 20%">
+                        <p class="marginbottom50">"I membri del nostro team lavorano costantemente in Pesi, fusi orari e 
+                            uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze,
+                            ma nessuna e' facile quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili
+                            con queste esigenze, ma nessuna e' facile quanto Dropbox Paper".
+                        </p>
+                        <p>Morten Thomsen,Global IT Lead</p>
                     </div>
                     
                     <div class="bundleend - flex">
                         <div class="bundleend-row flex" >
-                            <div></div>
-                            <div></div>
+                            <div class="bgred">
+                                <img class="height30 fillwhite" src="img/world_bicycle_relief.svg" alt="img/world_bicycle_relief.svg">
+                            </div>
+                            <div class="bgazure">
+                                <img class="height10"src="img/hearst_corp.svg" alt="img/hearst_corp.svg">
+                            </div>
                         </div>
                         <div class="bundleend-row flex" >
-                            <div></div>
-                            <div></div>
+                            <div class="bgheavyblue">
+                                <img class="height30"src="img/lonely_planet.svg" alt="img/lonely_planet.svg">
+                            </div>
+                            <div class="bgyellow">
+                                <img class="height40"src="img/clear_channel.svg" alt="img/clear_channel.svg">
+                            </div>
                         </div>
                 </div>
             </div>
@@ -331,8 +347,13 @@
             <!-- prova gratuita -->
 
             <section class="bgcolorgrey bgprova marginbottom150">
-                <div class=" containerprova">
-
+                <div class=" containerprova flex">
+                    <div class="cont-titlefreetrial flex">
+                        <h1>Porta Dropbox business nella tua azienda</h1>
+                    </div>
+                    <div class="cont-buttonfreetrial flex">
+                        <button> Inizia la tua prova gratuita</button>
+                    </div>
                 </div>
             </section>
                 
