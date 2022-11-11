@@ -587,20 +587,59 @@ p>i{
     justify-content: space-between;
     border-left: none;
     border-right: none;
+    padding-top: 39px;
 }
 
 .containerFAQ span{
-    margin-right: 40px;
-    cursor: pointer;
+    font-weight: 700;
+    margin-right: 315px;
 }
 
 .containerFAQ p{
-    font-weight: 700;
+    cursor: pointer;
 }
 
 .containerFAQ >.noborder{
     border:none
 }
+
+.question{
+    display: inline;
+}
+
+.lorem{
+    margin-top: 20px;
+}
+
+/* hover title */
+
+.lorem{
+    display: none;
+}
+
+.content:hover .lorem{
+    display: block;
+
+}
+
+
+/* hover arrows */
+
+.fa-chevron-up{
+    display: none;
+}
+
+.containerFAQ > div:hover .fa-chevron-up{
+    display: inline;
+}
+.containerFAQ > div:hover .fa-chevron-down{
+    display: none;
+}
+.containerFAQ > div:hover{
+    height: 200px;
+}
+
+
 
 
 /* footer */
