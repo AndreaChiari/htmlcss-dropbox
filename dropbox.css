@@ -430,7 +430,6 @@ p>i{
 
 }
 
-
 .row-pic > div > img{
     height: 300px;
     width: auto;
@@ -444,6 +443,7 @@ p>i{
 .row-pic > div > p{
     padding-left: 15px;
 }
+
 
 
 
@@ -465,31 +465,30 @@ p>i{
 /* jumbotron immagini a scacchiera */
 
 .ps-container{
-    height: 500px;
+    height: 634px;
     
 }
 
 .bundlestart{
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 3);
     
     flex-direction: column;
 
 }
 
 .description{
-    flex-basis: calc(100% / 2);
+    flex-basis: calc(100% / 3);
     background-color: rgb(245,245,245);
     padding:45px 30px;
 }
 
 .bundleend{
-    flex-basis: calc(100% / 2);
-    background-color: rgb(226, 43, 43);
+    flex-basis: calc(100% / 3);
     flex-direction: column;
 }
 
 .bundlestart-row{
-    height: 250px;
+    height: 317px;
     width: 100%
     
 }
@@ -510,7 +509,7 @@ p>i{
 }
 
 .bundleend-row{
-    height: 250px;
+    height: 317px;
     width: 100%
 }
 
