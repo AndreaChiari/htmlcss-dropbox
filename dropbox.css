@@ -34,6 +34,9 @@
     justify-content: flex-end;
 }
 
+a{
+    color:black;
+}
 
 /* utility size-img */
 
@@ -254,6 +257,7 @@ header{
 .column{
     flex-basis: calc(100% / 3);
     border: 1px solid grey;
+    padding-right: 10px;
 }
 
 .circle-bordered{
@@ -290,6 +294,7 @@ header{
     height: 50px;
     width: 100%;
     border-bottom: 1px solid grey;
+
 }
 
 .header-column{
@@ -300,20 +305,22 @@ header{
 
 .infosub{
     position: relative;
+    padding-right: 10px;
 }
 
 .infosub > *{
-padding-left: 15px;
+    padding-left: 15px;
 }
 
 p>i{
     font-size: 100%;
 }
-
+.infosub>p{
+    display: flex;
+}
 
 .infosub button{
-    margin-left: 10px;
-    width: 266px;
+    width: 286px;
     height: 44px;
 } 
 
@@ -322,10 +329,10 @@ p>i{
 }
 
 .provabutton-container-singolo{
-    margin-top: 95px;
+    margin-top: 75px;
 }
 .provabutton-container-Team{
-    margin-top: 73px
+    margin-top: 52px;
 }
 /* ufficio vendite / team  */
 
@@ -482,6 +489,7 @@ p>i{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 10px solid transparent;
 }
  .bundlestart-row > div > img{
     filter: invert(100%);
@@ -490,9 +498,10 @@ p>i{
 .bundleend-row > div > img{
     filter: invert(100%);
 }
+
 .bundleend-row{
     height: 250px;
-    width: 100%;
+    width: 100%
 }
 
 
@@ -501,10 +510,16 @@ p>i{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    border: 10px solid transparent;
 }
 
+.bundleend-row > div:hover{
+    border: 10px solid rgba(255, 255, 255, 0.7);
+}
 
+.bundlestart-row > div:hover{
+    border: 10px solid rgba(255, 255, 255, 0.7);
+}
 
 /* prova gratuita */
 
@@ -573,12 +588,15 @@ p>i{
     margin-right: 40px;
     cursor: pointer;
 }
+
 .containerFAQ p{
     font-weight: 700;
 }
+
 .containerFAQ >.noborder{
     border:none
 }
+
 
 /* footer */
 
